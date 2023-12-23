@@ -1,0 +1,82 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url("unidad\ 2.jpg"); 
+    
+}
+
+.titulo{
+background-color: rgb(154, 91, 212);
+text-align: center;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+padding-top: 15px;
+padding-bottom: 15px;
+color: white;
+outline: dashed pink;
+}
+
+h3,p,input{
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+color: white;
+
+}
+
+input{
+    font-family: monospace;
+    font-size: 1.5em;
+    background-color: black;
+    padding: 10px;
+
+
+
+}
+
+
+.intro{
+    margin:100px auto;
+    width:500px;
+    height: 600px;
+    padding: 20px;
+    color: white;
+    font-size: 15px;
+    outline: solid white 5px;
+    border-radius: 5px;
+    margin-top: 20px;
+} 
+.mision{
+    text-align:center;
+     border: radius 20px; 
+}
+.pregunta_enunciado{
+    text-align: justify;
+}
+.pregunta_contenido{
+    padding:15px;
+}
+.pregunta_alternativas{
+    outline: red solid;
+    height:200px;
+}
+.pregunta_alternativas button{
+    display: block;
+    margin:5px auto;
+    font-size: 15px;
+    width: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: beige;
+}
+
+.pregunta_alternativas button:hover{
+    background-color:greenyellow;
+}
+
+#cuadro{
+    height: 450px;
+}
+#barra-progreso{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
